@@ -1,4 +1,4 @@
-package S06;
+package S06.Ejemplo;
 
 public class Main {
 	public static void main(String[] args) {

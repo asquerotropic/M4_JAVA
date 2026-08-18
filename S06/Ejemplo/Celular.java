@@ -1,4 +1,4 @@
-package S06;
+package S06.Ejemplo;
 
 public class Celular extends Dispositivo{
 	private String sistemaOp;
