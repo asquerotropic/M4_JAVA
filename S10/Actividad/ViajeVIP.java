@@ -7,6 +7,7 @@ public class ViajeVIP extends Viaje {
 	
 	@Override
 	public double calcularTarifa() {
-		return 25 * distancia;
+		double total = (25 * distancia) + 50;
+		return Math.round(total * 100.0) / 100.0;
 	}
 }
