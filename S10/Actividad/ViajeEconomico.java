@@ -6,7 +6,7 @@ public class ViajeEconomico extends Viaje {
 	}
 
 	@Override
-	public double calcularTarifa(double tarifa) {
+	public double calcularTarifa() {
 		return 15 * distancia;
 	}	
 }

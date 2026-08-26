@@ -7,5 +7,5 @@ public abstract class Viaje {
 		this.distancia = distancia;
 	}
 
-	public abstract double calcularTarifa(double tarifa);
+	public abstract double calcularTarifa();
 }
