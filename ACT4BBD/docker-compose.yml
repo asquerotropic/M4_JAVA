@@ -9,7 +9,6 @@ services:
       - POSTGRES_PASSWORD: password123
       - POSTGRES_DB: sistema_tramites
     volumes: #GUARDAMOS EL PROYECTO EN LA CARPETA, EN CASO DE QUE TENGA ALGUNA FALLA 
-      - postgres_data: /var/lib/postgres/data
+      - postgres_data:/var/lib/postgres/data
 volumes: #LA INFORMACIÓN SE VA ALMACENAR EN EL LOCAL (PUEDE INDICARSE ALGUNA RUTA EN C)
   - postgres_data:
-      drive: local

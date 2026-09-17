@@ -2,4 +2,6 @@
 FROM postgres:15
 
 #REALIZA UNA COPIA DEL ARCHIVO INIT EN DOCKER
-COPY init.sql dest /docker-entrypoint-initdb.d/
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# PostgreSQL ejecutará automáticamente los scripts en /docker-entrypoint-initdb.d/
